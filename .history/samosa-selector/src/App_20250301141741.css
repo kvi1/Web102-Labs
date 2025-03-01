@@ -1,0 +1,21 @@
+.App{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App .samosa{
+  height: 15em;
+  padding: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.App .container{
+  margin-top: 50px;
+  display: flex;
+}
+

@@ -1,0 +1,43 @@
+.App{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App .samosa{
+  height: 15em;
+  padding: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.App .container{
+  margin-top: 50px;
+  display: flex;
+  
+}
+
+.App .container .upgrade{
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 25px;
+  width: 200px;
+  line-height: 0.5;
+  background: black;
+
+}
+
+.App .container .upgrade button{
+  background: blue;
+}
+
+.App .container .upgrade button:hover{
+  background: white;
+}
+
